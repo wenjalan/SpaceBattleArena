@@ -1,0 +1,39 @@
+2019-05-23 08:42:33,674|105|INFO|MainThread|SBA_Serv|71|<module>|Starting Space Battle Arena v1.2.0.1127
+2019-05-23 08:42:33,677|108|INFO|MainThread|SBA_Serv|73|<module>|Logging to SBA_Serv2019-05-23_084233.log Verbose: False
+2019-05-23 08:42:33,677|108|INFO|MainThread|SBA_Serv|83|<module>|Loaded Default Configuration File
+2019-05-23 08:42:33,677|108|INFO|MainThread|SBA_Serv|97|<module>|Loaded Configuration Files: ['machine_test.cfg']
+2019-05-23 08:42:33,681|112|INFO|MainThread|SBA_Serv|151|<module>|Running Basic Game
+2019-05-23 08:42:33,681|112|INFO|MainThread|WorldMap|58|__init__|Initialized World of size (1536, 1152)
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|159|__init__|Spawn Manager Initializing Game Object Types
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|178|__init__|Spawn Manager Found Types: ['Star', 'WormHole', 'Nebula', 'BlackHole', 'Dragon', 'Planet', 'Asteroid', 'SpaceMine']
+2019-05-23 08:42:33,694|125|INFO|MainThread|Game|137|round_start|Starting Game
+2019-05-23 08:42:33,694|125|INFO|MainThread|Game|154|round_start|Resetting World.
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Star x 0
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity WormHole x 0
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Nebula x 0
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity BlackHole x 0
+2019-05-23 08:42:33,694|125|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Dragon x 0
+2019-05-23 08:42:33,697|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Planet x 0
+2019-05-23 08:42:33,697|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Asteroid x 0
+2019-05-23 08:42:33,697|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity SpaceMine x 0
+2019-05-23 08:42:33,697|128|INFO|MainThread|SBA_Serv|159|<module>|Starting Game Network Server...
+2019-05-23 08:42:33,701|132|INFO|MainThread|MWNL2|131|acceptNewClients|Accepting New Clients
+2019-05-23 08:42:33,701|132|INFO|MWNL2_getClients|MWNL2|301|__THREAD__getClients|Waiting For Clients...
+2019-05-23 08:42:33,701|132|INFO|MainThread|WorldServer|45|__init__|Started Server (10.142.4.133), Waiting for Clients
+2019-05-23 08:42:33,701|132|INFO|MainThread|main|69|startGame|Initiating PyGame...
+2019-05-23 08:42:34,142|573|INFO|MainThread|main|78|startGame|Starting Sound...
+2019-05-23 08:42:34,180|611|INFO|MainThread|main|243|startGame|Create Main Surface...
+2019-05-23 08:42:37,559|3990|INFO|MainThread|Game|105|end|Ending Game
+2019-05-23 08:42:37,559|3990|INFO|MainThread|Utils|289|stop|Stopping Spawn Timers
+2019-05-23 08:42:37,559|3990|INFO|MainThread|Game|230|round_over|[Game] Stats: []
+2019-05-23 08:42:37,559|3990|INFO|MainThread|Game|243|round_over|Destroying World
+2019-05-23 08:42:37,759|4190|INFO|MainThread|Game|109|end|Ending World
+2019-05-23 08:42:37,759|4190|INFO|MainThread|main|697|startGame|Closing Pygame...
+2019-05-23 08:42:38,109|4540|INFO|MainThread|main|707|startGame|GUI Closed
+2019-05-23 08:42:38,111|4542|INFO|MainThread|SBA_Serv|171|<module>|Server Request Disconnect All
+2019-05-23 08:42:38,111|4542|INFO|MainThread|SBA_Serv|173|<module>|Server exit main
+2019-05-23 08:42:38,111|4542|INFO|Close All Clients Thread|MWNL2|183|__close|Sending Disconnect Message
+2019-05-23 08:42:38,112|4543|INFO|Close All Clients Thread|MWNL2|235|__killThreads|Killing Main Threads...
+2019-05-23 08:42:38,112|4543|INFO|Close All Clients Thread|MWNL2|237|__killThreads|1 Thread(s) Alive
+2019-05-23 08:42:38,703|5134|INFO|MWNL2_getClients|MWNL2|371|__THREAD__getClients|Stopped Waiting For Clients...
+2019-05-23 08:42:38,717|5148|INFO|Close All Clients Thread|MWNL2|208|__close|Closing Main Socket

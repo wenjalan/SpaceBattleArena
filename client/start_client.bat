@@ -1,0 +1,1 @@
+java -cp SpaceBattle.jar;gson-2.2.jar;. ExampleShip

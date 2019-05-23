@@ -1,0 +1,505 @@
+2019-05-23 08:38:38,716|104|INFO|MainThread|SBA_Serv|71|<module>|Starting Space Battle Arena v1.2.0.1127
+2019-05-23 08:38:38,716|104|INFO|MainThread|SBA_Serv|73|<module>|Logging to SBA_Serv2019-05-23_083838.log Verbose: False
+2019-05-23 08:38:38,720|108|INFO|MainThread|SBA_Serv|83|<module>|Loaded Default Configuration File
+2019-05-23 08:38:38,720|108|INFO|MainThread|SBA_Serv|97|<module>|Loaded Configuration Files: ['machine_test.cfg']
+2019-05-23 08:38:38,723|111|INFO|MainThread|SBA_Serv|151|<module>|Running Basic Game
+2019-05-23 08:38:38,736|124|INFO|MainThread|WorldMap|58|__init__|Initialized World of size (1536, 1152)
+2019-05-23 08:38:38,736|124|INFO|MainThread|Utils|159|__init__|Spawn Manager Initializing Game Object Types
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|178|__init__|Spawn Manager Found Types: ['Star', 'WormHole', 'Nebula', 'BlackHole', 'Dragon', 'Planet', 'Asteroid', 'SpaceMine']
+2019-05-23 08:38:38,740|128|INFO|MainThread|Game|137|round_start|Starting Game
+2019-05-23 08:38:38,740|128|INFO|MainThread|Game|154|round_start|Resetting World.
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Star x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity WormHole x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Nebula x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity BlackHole x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Dragon x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Planet x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity Asteroid x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|Utils|335|spawn_entity|Spawning Entity SpaceMine x 0
+2019-05-23 08:38:38,740|128|INFO|MainThread|SBA_Serv|159|<module>|Starting Game Network Server...
+2019-05-23 08:38:38,743|131|INFO|MainThread|MWNL2|131|acceptNewClients|Accepting New Clients
+2019-05-23 08:38:38,743|131|INFO|MWNL2_getClients|MWNL2|301|__THREAD__getClients|Waiting For Clients...
+2019-05-23 08:38:38,747|135|INFO|MainThread|WorldServer|45|__init__|Started Server (10.142.4.133), Waiting for Clients
+2019-05-23 08:38:38,747|135|INFO|MainThread|main|69|startGame|Initiating PyGame...
+2019-05-23 08:38:39,506|894|INFO|MainThread|main|78|startGame|Starting Sound...
+2019-05-23 08:38:39,549|937|INFO|MainThread|main|243|startGame|Create Main Surface...
+2019-05-23 08:39:08,388|29776|INFO|MWNL2_getClients|MWNL2|327|__THREAD__getClients|New Connection From: ('10.142.4.133', 56285)
+2019-05-23 08:39:08,388|29776|INFO|Client Receiving Thread 1|MWNL2|576|__THREAD__listen|('10.142.4.133', 56285)Listening...
+2019-05-23 08:39:08,390|29778|INFO|Client Sending Thread 1|MWNL2|668|__THREAD__send|('10.142.4.133', 56285)Ready To Send...
+2019-05-23 08:39:08,390|29778|INFO|MWNL2_getClients|MWNL2|354|__THREAD__getClients|conn: <Server.MWNL2.MWNL_Connection instance at 0x02CD7DC8>
+2019-05-23 08:39:08,595|29983|INFO|Client Receiving Thread 1|Game|192|player_added|Player Example Ship Added(0)
+2019-05-23 08:39:08,595|29983|INFO|Client Receiving Thread 1|Game|373|_game_add_ship_for_player|Adding Ship for Player 1 id #196 with Name Example Ship
+2019-05-23 08:39:08,595|29983|INFO|Client Receiving Thread 1|Game|192|player_added|Player Example Ship Added(1)
+2019-05-23 08:39:08,607|29995|INFO|Client Receiving Thread 1|Game|389|_game_add_ship_for_player|Sending New Ship #196 Environment Info
+2019-05-23 08:39:08,607|29995|INFO|Client Receiving Thread 1|Game|308|server_register_player|Registering Player: Example Ship 1
+2019-05-23 08:39:08,611|30000|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:08,611|30000|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldMap|250|__THREAD__gameloop|World Adding #196 to Physics Engine <World.WorldEntities.Ship object at 0x02CEB470>
+2019-05-23 08:39:08,624|30012|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,625|30013|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:08,625|30013|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:08,740|30128|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,740|30128|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:08,750|30138|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,750|30138|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:08,760|30148|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:08,785|30173|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,786|30174|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:08,786|30174|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:08,885|30273|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,885|30273|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:08,890|30278|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,890|30278|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:08,903|30291|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:08,904|30292|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:08,904|30292|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,010|30398|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,010|30398|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,030|30418|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,030|30418|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,032|30420|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:09,072|30460|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,072|30460|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,073|30461|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,177|30565|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,177|30565|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,198|30586|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:09,198|30586|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,200|30588|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,244|30632|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,244|30632|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,244|30632|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,346|30734|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,346|30734|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,348|30736|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,348|30736|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,362|30750|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,364|30752|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,364|30752|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,473|30861|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,473|30861|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,489|30877|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,489|30877|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,493|30881|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:09,532|30920|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,532|30921|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,532|30921|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,640|31028|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,640|31028|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,657|31046|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,657|31046|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,661|31049|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:09,701|31089|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,701|31089|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,701|31089|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,808|31196|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,809|31197|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,828|31217|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:09,828|31217|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,829|31217|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,872|31260|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,874|31262|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,874|31262|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:09,976|31364|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,976|31364|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:09,977|31365|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,977|31365|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:09,992|31380|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:09,992|31380|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:09,992|31380|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:10,101|31490|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,101|31490|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:10,118|31506|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,118|31506|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:10,122|31510|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:10,161|31549|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,161|31549|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:10,161|31549|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:10,269|31657|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,269|31657|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:10,286|31674|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,288|31676|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:10,290|31678|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:10,332|31720|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,332|31720|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:10,332|31720|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:10,437|31825|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,437|31825|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:10,457|31845|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,457|31845|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:10,459|31847|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:10,503|31891|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,503|31891|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:10,503|31891|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:10,605|31993|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,605|31993|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:10,608|31996|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,608|31996|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:10,621|32009|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,621|32009|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:10,621|32009|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:10,732|32120|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,732|32120|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:10,747|32135|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,747|32135|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:10,753|32141|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:10,789|32177|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,789|32177|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:10,789|32177|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:10,900|32288|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,900|32288|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:10,917|32305|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,917|32305|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:10,920|32308|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:10,970|32358|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:10,970|32358|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:10,970|32358|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:11,086|32474|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,086|32474|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:11,095|32483|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,095|32483|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:11,108|32496|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:11,130|32518|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,130|32518|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:11,130|32518|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:11,234|32622|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,236|32624|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:11,255|32643|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:11,256|32644|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,256|32644|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:11,299|32687|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,299|32687|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:11,299|32687|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:11,403|32791|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,403|32791|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:11,404|32792|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,404|32792|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:11,418|32806|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,418|32806|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:11,418|32806|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:11,529|32917|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,529|32917|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:11,543|32931|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,543|32931|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:11,549|32937|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:11,588|32976|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,588|32976|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:11,588|32976|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:11,696|33084|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,696|33084|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:11,713|33101|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,713|33101|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:11,717|33105|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:11,757|33145|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,757|33145|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:11,757|33145|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:11,865|33253|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,865|33253|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:11,884|33272|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,884|33272|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:11,885|33273|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:11,927|33315|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:11,927|33315|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:11,927|33315|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,032|33420|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,032|33420|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,052|33440|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:12,053|33441|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,055|33443|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,098|33486|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,098|33486|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:12,098|33486|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,198|33586|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,198|33586|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,203|33591|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,203|33591|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,216|33604|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,216|33604|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:12,216|33604|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,325|33713|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,325|33713|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,341|33729|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,341|33729|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,346|33734|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:12,388|33776|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,388|33776|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:12,390|33778|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,493|33881|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,493|33881|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,493|33881|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,493|33881|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,503|33891|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,503|33891|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:12,503|33891|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,619|34007|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,619|34007|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,630|34018|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,630|34018|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,641|34029|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:12,674|34062|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,674|34062|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:12,674|34062|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,786|34174|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,786|34174|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,798|34186|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,798|34186|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,808|34196|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:12,845|34233|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,845|34233|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:12,845|34233|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:12,956|34344|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,956|34344|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:12,970|34358|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:12,970|34358|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:12,976|34364|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:13,016|34404|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,016|34404|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,016|34404|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:13,124|34512|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,124|34512|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:13,142|34530|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,142|34530|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:13,144|34532|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:13,188|34576|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,188|34576|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,190|34578|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:13,290|34678|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,290|34678|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:13,296|34684|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,296|34684|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:13,309|34697|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,309|34697|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,309|34697|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:13,417|34805|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,417|34805|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:13,434|34822|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,434|34822|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:13,438|34826|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:13,476|34864|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,476|34865|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,476|34865|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:13,586|34974|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,586|34974|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:13,602|34990|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,602|34990|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:13,608|34996|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:13,648|35036|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,650|35038|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,650|35038|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:13,753|35141|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,753|35141|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:13,756|35144|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,756|35144|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:13,766|35154|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,766|35154|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,766|35154|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:13,880|35268|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,880|35268|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:13,892|35280|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,892|35280|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:13,901|35289|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:13,934|35322|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:13,936|35324|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:13,936|35324|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:14,049|35437|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,049|35437|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:14,062|35450|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,062|35450|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:14,071|35459|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:14,104|35492|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,104|35492|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:14,104|35492|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:14,219|35607|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,219|35607|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:14,230|35618|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,230|35618|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:14,240|35628|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:14,275|35663|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,275|35663|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:14,275|35663|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:14,387|35775|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,387|35775|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:14,401|35789|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,401|35789|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:14,407|35796|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:14,457|35845|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,457|35845|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:14,457|35845|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:14,575|35963|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,575|35963|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:14,584|35972|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,584|35972|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:14,595|35983|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:14,615|36003|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,615|36003|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:14,615|36003|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:14,721|36109|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,721|36109|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:14,742|36130|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,742|36130|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:14,743|36131|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:14,786|36174|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,786|36174|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:14,786|36174|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:14,890|36278|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,890|36278|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:14,911|36299|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,911|36299|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:14,911|36299|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:14,954|36342|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:14,954|36342|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:14,954|36342|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,056|36444|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,056|36444|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,059|36447|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,059|36447|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:15,075|36463|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,075|36463|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:15,075|36463|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,181|36569|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,181|36569|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,200|36588|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,200|36588|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:15,203|36592|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:15,244|36632|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,244|36632|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:15,244|36632|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,349|36737|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,349|36737|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,369|36757|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,369|36757|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:15,371|36759|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:15,413|36801|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,413|36801|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:15,413|36801|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,517|36905|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,517|36905|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,536|36924|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:15,539|36927|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,539|36927|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:15,582|36970|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,584|36972|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:15,584|36972|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,683|37071|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,683|37071|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,688|37076|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,688|37076|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:15,700|37088|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,700|37088|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:15,701|37089|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,809|37197|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,809|37197|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,826|37214|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,826|37214|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:15,831|37219|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:15,871|37259|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,871|37259|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:15,871|37259|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:15,977|37365|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,977|37365|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:15,996|37384|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:15,997|37385|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:15,997|37385|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,042|37430|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,042|37430|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,042|37430|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:16,142|37530|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,142|37530|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:16,148|37536|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,148|37536|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,158|37546|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,158|37546|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,160|37548|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:16,269|37657|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,269|37657|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:16,286|37674|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,286|37674|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,289|37677|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:16,329|37717|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,329|37717|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,329|37717|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:16,437|37825|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,437|37825|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:16,456|37844|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,456|37844|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,459|37847|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:16,499|37887|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,500|37888|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,500|37888|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:16,605|37993|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,605|37993|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:16,627|38015|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:16,628|38016|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,628|38016|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,668|38056|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,670|38058|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,670|38058|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:16,775|38163|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,775|38163|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:16,778|38166|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,778|38166|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,789|38177|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,789|38177|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,789|38177|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:16,900|38288|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,900|38288|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:16,914|38302|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,914|38302|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:16,921|38309|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:16,959|38347|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:16,960|38348|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:16,961|38349|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:17,068|38456|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,068|38456|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:17,085|38473|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,085|38473|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:17,088|38476|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:17,128|38516|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,128|38516|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:17,128|38516|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:17,236|38625|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,236|38625|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:17,253|38641|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,253|38641|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:17,257|38645|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:17,299|38687|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,299|38687|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:17,299|38687|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:17,404|38792|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,405|38793|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:17,424|38812|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,424|38812|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:17,426|38814|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:17,467|38855|INFO|Client Receiving Thread 1|WorldServer|170|__serverCallback|Processing Ship #196 Command Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,467|38855|INFO|Client Receiving Thread 1|WorldServer|171|__serverCallback|Ship Queue Before #196 CommandSystem(deque([], maxlen=4))
+2019-05-23 08:39:17,469|38857|INFO|Client Receiving Thread 1|WorldServer|182|__serverCallback|Ship Queue After #196 CommandSystem(deque([Command(#196, IDLE, 0.1, True, 0)], maxlen=4))
+2019-05-23 08:39:17,571|38959|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|89|update|Finished Executing Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,571|38959|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Commanding|93|update|#196 Commands in Queue: 0
+2019-05-23 08:39:17,605|38993|INFO|Client Receiving Thread 1|WorldServer|192|__serverCallback|Releasing #196 From Server Command: Command(#196, IDLE, 0.1, True, 0)
+2019-05-23 08:39:17,604|38992|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldEntities|107|update|Ship #196 on clock for not issuing a command in given time.
+2019-05-23 08:39:17,605|38993|INFO|Client Receiving Thread 1|WorldServer|206|__serverCallback|Send Environment to #196 (net 1)
+2019-05-23 08:39:17,605|38993|INFO|MainThread|Game|105|end|Ending Game
+2019-05-23 08:39:17,607|38995|INFO|MainThread|Utils|289|stop|Stopping Spawn Timers
+2019-05-23 08:39:17,608|38996|INFO|MainThread|Game|230|round_over|[Game] Stats: []
+2019-05-23 08:39:17,608|38996|INFO|MainThread|Game|243|round_over|Destroying World
+2019-05-23 08:39:17,625|39013|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|WorldMap|257|__THREAD__gameloop|World Removing #196 from Physics Engine <World.WorldEntities.Ship object at 0x02CEB470>
+2019-05-23 08:39:17,625|39013|INFO|WorldMap_gameloop_<World.WorldMap.GameWorld object at 0x02CCBFD0>|Entities|131|removeFromSpace|Removing Shape #196
+2019-05-23 08:39:17,809|39197|INFO|MainThread|Game|109|end|Ending World
+2019-05-23 08:39:17,809|39197|INFO|MainThread|main|697|startGame|Closing Pygame...
+2019-05-23 08:39:18,197|39585|INFO|MainThread|main|707|startGame|GUI Closed
+2019-05-23 08:39:18,200|39588|INFO|MainThread|SBA_Serv|171|<module>|Server Request Disconnect All
+2019-05-23 08:39:18,200|39588|INFO|Close All Clients Thread|MWNL2|183|__close|Sending Disconnect Message
+2019-05-23 08:39:18,200|39588|INFO|MainThread|SBA_Serv|173|<module>|Server exit main
+2019-05-23 08:39:18,200|39588|INFO|Close All Clients Thread|MWNL2|520|close|('10.142.4.133', 56285) Closing Connection
+2019-05-23 08:39:18,250|39638|INFO|Client Receiving Thread 1|MWNL2|405|__gotTag|Host Deleting Client Entry: 1
+2019-05-23 08:39:18,250|39638|INFO|Client Receiving Thread 1|MWNL2|454|__disconnectClient|Trying to Disconnect Client 1
+2019-05-23 08:39:18,250|39638|INFO|Close Specific Connection 1|MWNL2|520|close|('10.142.4.133', 56285) Closing Connection
+2019-05-23 08:39:18,250|39638|INFO|Client Receiving Thread 1|MWNL2|457|__disconnectClient|Closing Threads...
+2019-05-23 08:39:18,250|39638|INFO|Close Specific Connection 1|MWNL2|498|__killThreads|('10.142.4.133', 56285)Killing Threads...
+2019-05-23 08:39:18,250|39638|INFO|Client Receiving Thread 1|MWNL2|459|__disconnectClient|newdic = {}
+2019-05-23 08:39:18,252|39640|INFO|Client Receiving Thread 1|MWNL2|658|__THREAD__listen|('10.142.4.133', 56285)Stopped Listening...
+2019-05-23 08:39:18,302|39690|INFO|Close All Clients Thread|MWNL2|498|__killThreads|('10.142.4.133', 56285)Killing Threads...
+2019-05-23 08:39:18,904|40292|INFO|Close All Clients Thread|MWNL2|235|__killThreads|Killing Main Threads...
+2019-05-23 08:39:18,904|40292|INFO|Close All Clients Thread|MWNL2|237|__killThreads|1 Thread(s) Alive
+2019-05-23 08:39:19,250|40638|INFO|Client Sending Thread 1|MWNL2|729|__THREAD__send|('10.142.4.133', 56285)Stopped Sending...
+2019-05-23 08:39:19,397|40785|INFO|MWNL2_getClients|MWNL2|371|__THREAD__getClients|Stopped Waiting For Clients...
+2019-05-23 08:39:19,407|40796|INFO|Close All Clients Thread|MWNL2|208|__close|Closing Main Socket
